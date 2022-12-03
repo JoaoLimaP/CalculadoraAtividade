@@ -23,19 +23,20 @@ public class Main {
         calculo = scan.nextInt();
 
         if (calculo == 1) {
-            System.out.println(a + b);
+            System.out.println("A soma de " + a + " + " + b + " é: " + (a+b));
+
         }
         if (calculo == 2) {
-            System.out.println(a - b);
+            System.out.println("A subtração de " + a + " - " + b + " é " + (a - b));
         }
         if (calculo == 3) {
-            System.out.println(a * b);
+            System.out.println("A multiplicação de " + a + " * " + b + " é " +(a * b));
         }
         if (calculo == 4) {
-            System.out.println(a / b);
+            System.out.println("A divisão de " + a + "/" + b + " é " +(a / b));
         }
         if (calculo == 5) {
-            System.out.println(Math.pow(a, b));
+            System.out.println( "A potencia de " + a + " sobre " + b + " é " + (Math.pow(a, b)));
         }
         if (calculo == 6) {
             System.out.println("Raiz de " + a + " é: " + Math.sqrt(a));
